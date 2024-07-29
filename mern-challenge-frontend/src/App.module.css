@@ -1,0 +1,140 @@
+.app {
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f2f5;
+  }
+  
+  .header {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .select, .input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .select {
+    width: 150px;
+  }
+  
+  .input {
+    width: 250px;
+  }
+  
+  .tableContainer {
+    overflow-x: auto;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .table th, .table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .productImage {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .truncate {
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .paginationButton {
+    padding: 8px 16px;
+    margin: 0 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .paginationButton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .paginationInfo {
+    margin: 0 10px;
+  }
+  
+  .statistics, .chart {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .statisticsTitle, .chartTitle {
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .statisticsItem {
+    margin-bottom: 10px;
+  }
+  
+  .chartContainer {
+    height: 300px;
+  }
+  
+  .loading, .error {
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+  }
+  
+  .error {
+    color: #721c24;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    border-radius: 4px;
+  }
